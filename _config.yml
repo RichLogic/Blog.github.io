@@ -4,9 +4,6 @@ remote_theme: pmarsceill/just-the-docs
 baseurl: "/just-the-docs"
 url: "https://pmarsceill.github.io"
 
-permalink: pretty
-exclude: ["docs/tests/"]
-
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
