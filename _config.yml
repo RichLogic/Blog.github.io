@@ -1,8 +1,10 @@
 title: Just Notes
 description: 见龙在田，利见大人
 remote_theme: pmarsceill/just-the-docs
-baseurl: "/just-the-docs"
 url: "https://pmarsceill.github.io"
+
+permalink: pretty
+exclude: ["docs/tests/"]
 
 search_enabled: true
 search:
