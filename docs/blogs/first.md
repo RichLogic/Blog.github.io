@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 如何建造自己的博客
-parent: blog
+parent: blogs
 ---
 
 # Search
