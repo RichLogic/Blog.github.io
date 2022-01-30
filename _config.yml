@@ -1,11 +1,11 @@
-title: Just Notes
+title: RichLogic Notes
 description: 见龙在田，利见大人
 url: "https://richlogic.blog"
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 
-exclude: ["docs/tests/"]
+exclude: ["docs/tutorial/", "docs/ui-components/", "docs/utilities/"]
 
 search_enabled: true
 search:
