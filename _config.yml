@@ -5,7 +5,7 @@ url: "https://richlogic.blog"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 
-exclude: ["vendor", "docs/tests/", "docs/ui-components/"]
+exclude: ["vendor", "docs/tests/", "docs/ui-components/", "docs/utilities/"]
 
 search_enabled: true
 search:

@@ -2,95 +2,74 @@
 layout: default
 title: 个人介绍
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "人生苦短，乐呵乐呵得了"
 permalink: /
 ---
 
-# Focus on writing good documentation
-{: .fs-9 }
+# 个人介绍
+{: .no_toc }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
-{: .fs-6 .fw-300 }
+写作日期：2022-02-03
+{: .fs-2 .text-grey-dk-000 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
-
-## Getting started
-
-### Dependencies
-
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
-
-### Quick start: Use as a GitHub Pages remote theme
-
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
-
-### Local installation: Use the gem-based theme
-
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
-
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
-
-### Configure Just the Docs
-
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+阅读时间：5 min
+{: .fs-2 .text-grey-dk-000 }
 
 ---
 
-## About the project
+**标签**
+{: .fs-6 .text-grey-dk-300}
 
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
+<div class="code-example" markdown="1">
+健身
+{: .label .label-green }
 
-### License
+游戏
+{: .label .label-purple }
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+动漫
+{: .label .label-red }
 
-### Contributing
+撸猫
+{: .label .label-yellow }
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+程序员
+{: .label }
 
-#### Thank you to the contributors of Just the Docs!
+</div>
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
 
-### Code of Conduct
+## 经历
+<br />
 
-Just the Docs is committed to fostering a welcoming community.
+毕业之初想做一份离钱近一点儿的工作，所以选择了证券，结果实习的时候就见证了几次股灾，股灾过后市场更是萧条。我记得当初营业部里，一天里难得见到一个顾客，理所当然的，一个一无所知的毕业生也不会有什么生存的空间。
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+于是我，退出了第一份工作。
+
+预谋转行是在 16、17 年，现在回想起来，当时的互联网虽然已经开始了内卷，但是圈外人对于程序员的印象，还停留在一个穿着格子衫的程序员，通过创业，一夜之间成为了身价过亿的 CEO。
+
+当时**程序员** == **收入高**。
+
+被这种观念影响，我想做一个程序员；周围的人也是因为程序员收入高，所以质疑我不能成为一个程序员。但是，想当一个程序员真的挺简单的。
+
+虽然小时候就喜欢玩电脑，但是从来没打算深入了解什么计算机知识，所以我应该算是零基础转行吧。自学的过程无非就是那一套流程，先确定语言栈，然后找视频，边看边跟着敲一遍。这时觉得自己行了，就出去找工作，结果才发现没人理，最后实在是没办法了，就托亲戚找了一个一开始完全没有收入的实习，这才算是入了行。后来等再过了两年才敢来北京找工作，原本以为自己很菜，后来发现大家也都是彼此彼此，这时候才意识到 base 好像是要低了。
+
+到今天，作为一个程序员，也已经五年的时间了，这五年的时间不多也不少，工作经历和相关知识的积累也到了一定的阶段，不过按照费曼学习法，我平常的学习很少会尝试 **teach** 这件事儿，所以这也是开这个博客的初衷。除此之外呢，我本身爱好也有点儿多，很多事情都喜欢浅尝辄止的尝试一下，所以关于健身、游戏相关的也会尝试着做一些分享，要是有了新的爱好，再往里加也说不定。
+
+## 感悟
+<br />
+
+一代人有一代人的使命。90 后们从小，基本上都过着一天比一天好的日子，但是这样的情况是常态吗？很可能不是的。
+
+正如大批 50 会下岗，60、70 好几套房，80 享受互联网红利一样，90 后自从成为劳动力，就面临着不怎么增长的经济，和已经分配的差不多的蛋糕。那么我们面对这种零和博弈，该怎么思考付出与收获的关系呢？有两个核心问题，理解这两个问题，应该可以找到答案。
+1. 价值观趋同就会「卷」
+2. 边际效应递减
+
+这是最好的时代，也是最坏的时代，不过无论如何，是我们所处的时代。所以我的理解，关键还是要认真做事，努力生活。毕竟，再如何规划，路还是要自己走。
+
+ps：最后放两张自家崽子小时候的照片吧！
+
+![Image.png]({% link image/index/huhu1.jpeg %})
+![Image.png]({% link image/index/yoyo1.png %})
+
+end！
